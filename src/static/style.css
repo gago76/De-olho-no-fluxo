@@ -1,0 +1,26 @@
+body {
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+#location-data p, #status p {
+    margin: 8px 0;
+    font-size: 1.1em;
+}
+
+#location-data span, #status span {
+    font-weight: bold;
+    color: #007bff;
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 20px;
+}
